@@ -6,7 +6,8 @@ function ntd (a)
     }
     else
     {
-        console.log(parseInt(a,10))
+        var str = a.toString()
+        console.log(parseInt(str,10))
     }
 }
 ntd (0b01101)
